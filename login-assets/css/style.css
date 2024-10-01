@@ -15,7 +15,8 @@ a {
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   a:hover {
-    text-decoration: none !important; }
+    text-decoration: none !important; 
+  }
 
 .content {
   padding: 7rem 0; }
@@ -40,20 +41,23 @@ h2 {
     .half .contents, .half .bg {
       width: 100%; } }
   .half .contents .form-control, .half .bg .form-control {
-    border: none;
-    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    
+    /* -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); */
     border-radius: 4px;
     height: 54px;
-    background: #fff; }
+    background: #fff;
+  }
     .half .contents .form-control:active, .half .contents .form-control:focus, .half .bg .form-control:active, .half .bg .form-control:focus {
       outline: none;
       -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);    
+     }
 
 .half .bg {
   background-size: cover;
-  background-position: center; }
+  background-position: center; 
+}
 
 .half a {
   color: #888;
@@ -62,7 +66,8 @@ h2 {
 .half .btn {
   height: 54px;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px; 
+}
 
 .half .forgot-pass {
   position: relative;
@@ -141,7 +146,8 @@ h2 {
 
 .control--checkbox input:disabled:checked ~ .control__indicator {
   background-color: #7e0cf5;
-  opacity: .2; }
+  opacity: .2; 
+}
 
 
 .side-background{
@@ -166,5 +172,17 @@ h2 {
   100%{
     background-image: url('../../img/wallpaper/login-img/img4.jpg');
   }
+}
+
+.info-success{
+  border-color: #2A3439;
+}
+.info-error{
+  border-color: red;
+}
+.error{
+  color: red;
+  font-size: 9px;
+  height: 13px;
 }
 
